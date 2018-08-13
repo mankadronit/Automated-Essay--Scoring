@@ -1,7 +1,6 @@
 # Automated Essay Scoring
 > A Deep Learning model that predicts the score of a given input essay. 
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
+
 The dataset is from Kaggle ASAP competition which was provided by The Hewlett Foundation.
 
 The **mysite** folder contains the Django app if you want an interactive demo.
@@ -11,11 +10,11 @@ The accuracy is calculated by **Quadratic Weighted Kappa(QWK)**, which measures 
 
 For more info on LSTM Networks see this link.
 
-![](https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC1.png)
+![](https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC1.png = 250x250)
 
-![](https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC2.png)
+![](https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC2.png = 250x250)
 
-![](https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC3.png)
+![](https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC3.png = 250x250)
 
 ## Requirements
 - Tensorflow 1.9
