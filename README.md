@@ -10,9 +10,9 @@ The accuracy is calculated by **Quadratic Weighted Kappa(QWK)**, which measures 
 
 For more info on LSTM Networks see this link.
 
-<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC1.png" width="40%">
-<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC2.png" width="40%">
-<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC3.png" width="40%">
+<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC1.png" width="100%">
+<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC2.png" width="100%">
+<img src="https://github.com/mankadronit/Automated-Essay--Scoring/blob/master/ScreenShots/SC3.png" width="100%">
 
 
 ## Requirements
