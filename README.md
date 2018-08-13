@@ -1,7 +1,7 @@
 # Automated Essay Scoring
 > A Deep Learning model that predicts the score of a given input essay. 
 [![Build Status][travis-image]][travis-url]
-
+[![Downloads Stats][npm-downloads]][npm-url]
 The dataset is from Kaggle ASAP competition which was provided by The Hewlett Foundation.
 
 The **mysite** folder contains the Django app if you want an interactive demo.
@@ -37,5 +37,5 @@ pip install gensim
 - To run the Django App cd ./ into the **mysite** folder and run ```python manage.py runserver```
 
 ## Reference
-[http://aclweb.org/anthology/D/D16/D16-1193.pdf](A Neural Approach to Automated Essay Scoring)
-[https://arxiv.org/pdf/1606.04289.pdf](Automatic Text Scoring Using Neural Networks)
+(A Neural Approach to Automated Essay Scoring)[http://aclweb.org/anthology/D/D16/D16-1193.pdf]
+(Automatic Text Scoring Using Neural Networks)[https://arxiv.org/pdf/1606.04289.pdf]
