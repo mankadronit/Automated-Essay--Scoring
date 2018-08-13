@@ -1,0 +1,54 @@
+{% extends 'base.html' %}
+{% block breadcrumb %}
+  <li class="breadcrumb-item active">Question Sets</li>
+{% endblock %}
+{% block content %}
+    {% if questions_list %}
+        <p class="h3">Alright! Let's select a Question Set to start writing!</p>
+        <!-- <ul>
+            {% for question in questions_list %}
+            <li><a href="/{{ question.set }}">Question Set {{ question.set }}</a></li>
+            {% endfor %}
+        </ul> -->
+        <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Question</th>
+                    <th scope="col">Min Score</th>
+                    <th scope="col">Max Score</th>
+                  </tr>
+                </thead>
+                {% for question in questions_list %}
+                    <tr class="clickable-row" data-href='/{{ question.set }}'>
+                        <th scope="row">{{ question.set }}</th>
+                        <td>{{ question.question_title|truncatewords:15 }}</td>
+                        <td>{{ question.min_score }}</td>
+                        <td>{{ question.max_score }}</td>
+                      </tr>
+                {% endfor %}
+                <tbody>
+                </tbody>
+        </table>
+
+        <style type="text/css">
+            tr:hover {
+                background-color: #cc99ff;
+                cursor: pointer;
+            }
+        </style>
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+        <script>
+            jQuery(document).ready(function($) {
+            $(".clickable-row").click(function() {
+                window.location = $(this).data("href");
+            });
+        });
+        </script>
+    {% else %}
+        <p>No polls are available.</p>
+    {% endif %}
+{% endblock %}
+

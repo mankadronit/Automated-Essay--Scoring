@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+{% load widget_tweaks %}
+{% block breadcrumb %}
+  <li class="breadcrumb-item active"><a href="{% url 'index' %}">Home</a></li>
+  <li class="breadcrumb-item active"><a href="{% url 'question' essay.question.set %}">Question {{ essay.question.set }}</a></li>
+  <li class="breadcrumb-item active">Essay</li>
+{% endblock %}
+{% block content %}
+    <div class="jumbotron">
+        <h1 class="display-4">Grade {{ essay.score }}</h1>
+        <p class="lead">Congratulations! Maximum Possible Score on this question is {{ essay.question.max_score }}</p>
+        <hr class="my-4">
+        <p>Your essay is graded by the magical power of neural networks.</p>
+        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+    </div>
+
+    <div class="container">
+            <h2 class="display-4">Your Submission</h2>
+            <p class="text-justify">{{ essay.content }}</p>
+        </div>
+{% endblock %}
