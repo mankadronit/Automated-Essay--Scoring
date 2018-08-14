@@ -34,5 +34,5 @@ pip install gensim
 - To run the Django App cd ./ into the **mysite** folder and run ```python manage.py runserver```
 
 ## References
-1.[A Neural Approach to Automated Essay Scoring](http://aclweb.org/anthology/D/D16/D16-1193.pdf)__
-2.[Automatic Text Scoring Using Neural Networks](https://arxiv.org/pdf/1606.04289.pdf)__
+1.[A Neural Approach to Automated Essay Scoring](http://aclweb.org/anthology/D/D16/D16-1193.pdf) </br>
+2.[Automatic Text Scoring Using Neural Networks](https://arxiv.org/pdf/1606.04289.pdf)
