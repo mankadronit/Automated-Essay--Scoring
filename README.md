@@ -31,7 +31,11 @@ pip install gensim
 ## Installation 
 - Clone the repo
 - Just run the **Jupyter Notebook** to train the model.
-- To run the Django App cd ./ into the **mysite** folder and run ```python manage.py runserver```
+- To run the Django App cd ./ into the **mysite** folder and run 
+```
+python manage.py migrate
+python manage.py runserver
+```
 
 ## References
 1. [A Neural Approach to Automated Essay Scoring](http://aclweb.org/anthology/D/D16/D16-1193.pdf) </br>
